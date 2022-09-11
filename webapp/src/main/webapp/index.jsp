@@ -1,2 +1,4 @@
-<h1> Hello Pat, Bravo you were able to change the content of the app !!! </h1>
+
+<h1> Hello SPW! Bravo you were able to change the webapp content from /helloworld/webapp/src/main/webapp! </h1>
+
 
