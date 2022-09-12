@@ -5,8 +5,10 @@
 # Pull base image 
 From tomcat:8-jre8 
 
-# Maintainer 
-MAINTAINER "SPW" 
+# Maintainer
+MAINTAINER "SPW"
 
-# Copy war file from current working directory to tomcat container
-COPY ./webapp.war /usr/local/tomcat/webapps
+# Copy war file from jenkins workspace to tomcat server
+COPY webapp/target/valaxy.war /usr/local/tomcat/webapps
+ 
+
